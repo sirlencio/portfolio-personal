@@ -36,6 +36,14 @@ export const PROJECTS_DATA: { featured: Project[], others: Project[], wip: Proje
     ],
     others: [
         {
+            title: "Portfolio-Personal",
+            description: "Landing Page de portfolio personal.",
+            tech: [SiReact, SiTypescript, SiTailwindcss],
+            github: "https://github.com/sirlencio/portfolio-personal",
+            link: "https://cldev-chi.vercel.app/",
+            status: "completed"
+        },
+        {
             title: "Guess-Pokemon",
             description: "Aplicación web de adivinar el pokemon.",
             tech: [SiReact, SiTypescript],

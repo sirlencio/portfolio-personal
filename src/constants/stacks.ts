@@ -5,7 +5,8 @@ import {
   SiPostgresql, SiMysql, SiMongodb, SiJira,
   SiConfluence, SiPhp, SiLaravel, SiUnity,
   SiUnrealengine, SiSharp,
-  SiAngular
+  SiAngular,
+  SiVuedotjs
 } from "react-icons/si";
 import { FaJava, FaGitAlt, FaHtml5, FaCss3Alt, FaDatabase } from "react-icons/fa";
 import type { StackDataStructure } from "../types/stack";
@@ -22,6 +23,7 @@ export const STACK_DATA: StackDataStructure = {
   core: [
     { name: "Next.js", icon: SiNextdotjs, level: "Mi favorito", variant: "principal" as const },
     { name: "React", icon: SiReact, level: "Avanzado", variant: "principal" as const },
+    { name: "Vue.js", icon: SiVuedotjs, level: "Composition API", variant: "principal" as const },
     { name: "TypeScript", icon: SiTypescript, level: "Avanzado", variant: "principal" as const },
     { name: "JavaScript", icon: SiJavascript, level: "Avanzado", variant: "principal" as const },
     { name: "Tailwind CSS", icon: SiTailwindcss, level: "Intermedio", variant: "principal" as const },

@@ -1,12 +1,12 @@
 import type { Project } from "../types/project";
-import { SiTailwindcss, SiTypescript, SiReact, SiNetlify, SiNodedotjs, SiExpress, SiFirebase, SiZod, SiNextdotjs, SiSupabase, SiVercel, SiLaravel, SiRailway, SiUpstash } from "react-icons/si";
+import { SiTailwindcss, SiTypescript, SiChartdotjs, SiReact, SiNetlify, SiNodedotjs, SiExpress, SiFirebase, SiZod, SiNextdotjs, SiSupabase, SiVercel, SiLaravel, SiRailway, SiUpstash, SiVuedotjs } from "react-icons/si";
 
 export const PROJECTS_DATA: { featured: Project[], others: Project[], wip: Project[] } = {
     featured: [
         {
             title: "Is My Steam Linux Ready",
-            description: "App para comprobar si tu biblioteca de Steam es compatible con Linux.",
-            why: "Quería hacer una app para que los usuarios pudiesen comprobar de manera visual si sus juegos de Steam son compatibles con Linux.",
+            description: "Herramienta que analiza bibliotecas de Steam en tiempo real para verificar su compatibilidad con Linux, ofreciendo una experiencia visual y rápida.",
+            why: "Buscaba transformar datos técnicos complejos en una interfaz intuitiva, integrando APIs externas y optimizando la velocidad de respuesta mediante estrategias de caché.",
             tech: [SiReact, SiTailwindcss, SiUpstash, SiNetlify],
             github: "https://github.com/sirlencio/IsMySteamLinuxReady",
             link: "https://ismysteamlinuxready.netlify.app/",
@@ -15,8 +15,8 @@ export const PROJECTS_DATA: { featured: Project[], others: Project[], wip: Proje
         },
         {
             title: "Clinica Dental",
-            description: "App para gestión administrativa de pacientes en clínicas dentales.",
-            why: "Quería practicar CRUD en fullstak con React y NodeJS.",
+            description: "Sistema integral para la gestión de pacientes y tratamientos, diseñado para digitalizar el flujo de trabajo administrativo de una clínica dental.",
+            why: "El objetivo fue construir una aplicación Fullstack escalable, garantizando la integridad de los datos mediante validaciones en el servidor y una comunicación fluida entre el frontend y la API.",
             tech: [SiReact, SiTailwindcss, SiNodedotjs, SiExpress, SiZod],
             github: "https://github.com/sirlencio/Clinica-Dental",
             link: "https://clinica-dental-blue.vercel.app/",
@@ -24,17 +24,25 @@ export const PROJECTS_DATA: { featured: Project[], others: Project[], wip: Proje
             status: "completed"
         },
         {
-            title: "Fire-chat",
-            description: "App de mensajeria en Firebase.",
-            why: "Quería practicar React y aprender a usar Firebase.",
-            tech: [SiReact, SiTailwindcss, SiFirebase, SiZod],
-            github: "https://github.com/sirlencio/react-firechat",
-            link: "https://firechat-2025-d935e.web.app/",
-            image: "/projects/firebase.png",
+            title: "Sneaker Stock Dash",
+            description: "Dashboard avanzado para la gestión de inventario de zapatillas con métricas en tiempo real.",
+            why: "Proyecto desarrollado para aterrizar conceptos de arquitectura de React en el ecosistema de Vue 3 (Composition API).",
+            tech: [SiVuedotjs, SiTailwindcss, SiTypescript, SiChartdotjs, SiVercel],
+            github: "https://github.com/sirlencio/sneaker-dashboard", 
+            link: "https://sneaker-dashboard-ten.vercel.app/",
+            image: "/projects/sneakers.png",
             status: "completed"
         },
     ],
     others: [
+        {
+            title: "Fire-chat",
+            description: "App de mensajeria en Firebase.",
+            tech: [SiReact, SiTailwindcss, SiFirebase, SiZod],
+            github: "https://github.com/sirlencio/react-firechat",
+            link: "https://firechat-2025-d935e.web.app/",
+            status: "completed"
+        },
         {
             title: "Portfolio-Personal",
             description: "Landing Page de portfolio personal.",

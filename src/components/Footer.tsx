@@ -15,7 +15,7 @@ const Footer = () => {
 
         <div className="flex flex-wrap justify-center items-center gap-12">
           <a
-            href="https://github.com/tu-usuario"
+            href="https://github.com/sirlencio"
             target="_blank"
             rel="noreferrer"
             className="grayscale opacity-40 hover:grayscale-0 hover:opacity-100 transition-all duration-500 text-slate-900 dark:text-white"
@@ -25,7 +25,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://linkedin.com/in/tu-usuario"
+            href="https://www.linkedin.com/in/carlos-lozano-p%C3%A9rez-b53834222"
             target="_blank"
             rel="noreferrer"
             className="grayscale opacity-40 hover:grayscale-0 hover:opacity-100 transition-all duration-500 text-[#0077B5]"
